@@ -219,24 +219,24 @@ vercel --prod
 ## 📸 Screenshots
 
 ### Login Page
-- Secure Login UI
-- Responsive Layout
+
+![Login Page](public/screenshots/login.png)
 
 ### Dashboard
-- Statistics Cards
-- Progress Tracking
-- Recent Tasks
+
+![Dashboard](public/screenshots/dashboard.png)
 
 ### Tasks Module
-- CRUD Operations
-- Search & Filters
-- Pagination
+
+![Tasks](public/screenshots/tasks.png)
 
 ### Team Module
-- Team Management
-- Add/Delete Members
 
----
+![Team](public/screenshots/team.png)
+
+### Dark Mode
+
+![Dark Mode](public/screenshots/darkmode.png)
 
 ## 👨‍💻 Author
 
