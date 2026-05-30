@@ -216,27 +216,27 @@ vercel --prod
 
 ---
 
-## 📸 Screenshots
+## 📸 Application Preview
 
 ### Login Page
 
-![Login Page](public/screenshots/login.png)
+<img src="./public/screenshots/login.png" width="100%">
 
 ### Dashboard
 
-![Dashboard](public/screenshots/dashboard.png)
+<img src="./public/screenshots/dashboard.png" width="100%">
 
-### Tasks Module
+### Task Management
 
-![Tasks](public/screenshots/tasks.png)
+<img src="./public/screenshots/tasks.png" width="100%">
 
-### Team Module
+### Team Management
 
-![Team](public/screenshots/team.png)
+<img src="./public/screenshots/team.png" width="100%">
 
 ### Dark Mode
 
-![Dark Mode](public/screenshots/darkmode.png)
+<img src="./public/screenshots/darkmode.png" width="100%">
 
 ## 👨‍💻 Author
 
