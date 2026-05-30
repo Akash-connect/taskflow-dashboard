@@ -247,19 +247,6 @@ vercel --prod
 
 ---
 
-## ⭐ Future Improvements
-
-- Backend Integration (Node.js / Django)
-- JWT Authentication
-- Role-Based Access Control
-- Drag & Drop Task Management
-- Notifications System
-- Charts & Analytics
-- Real-Time Collaboration
-- Database Integration
-
----
-
 ### Thank You 🙌
 
 If you found this project helpful, feel free to star the repository.
