@@ -37,7 +37,7 @@ A modern responsive Task & Team Management Dashboard built using Next.js, TypeSc
 ## Installation
 
 ```bash
-git clone YOUR_REPOSITORY_LINK
+git clone https://github.com/Akash-connect/taskflow-dashboard.git
 cd task-team-dashboard
 npm install
 npm run dev
