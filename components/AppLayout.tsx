@@ -1,4 +1,7 @@
+"use client";
+
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 import { LayoutDashboard, ListTodo, Users, LogOut } from "lucide-react";
 import ThemeToggle from "./ThemeToggle";
 
@@ -60,10 +63,17 @@ function NavLink({
   icon: React.ReactNode;
   text: string;
 }) {
+  const pathname = usePathname();
+  const active = pathname === href;
+
   return (
     <Link
       href={href}
-      className="flex items-center gap-3 rounded-2xl px-4 py-3 text-sm font-bold text-slate-700 transition hover:-translate-y-0.5 hover:bg-blue-600 hover:text-white dark:text-slate-300"
+      className={`flex items-center gap-3 rounded-2xl px-4 py-3 text-sm font-bold transition hover:-translate-y-0.5 ${
+        active
+          ? "bg-blue-600 text-white shadow-lg shadow-blue-600/25"
+          : "text-slate-700 hover:bg-blue-600 hover:text-white dark:text-slate-300"
+      }`}
     >
       {icon}
       {text}
